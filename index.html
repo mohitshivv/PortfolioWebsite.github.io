@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohit Shiv | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/relogo.png" alt="Mohit Shiv Logo" />
+                <span class="brand">Mohit Shiv<small>Web Developer</small></span>
+            </div>
+
+            <button class="menu-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ===== HERO SLIDER ===== -->
+    <section class="slider" id="home">
+        <div class="slide active">
+            <img src="images/keegan-houser--Q_t4SCN8c4-unsplash.jpg" alt="Web Developer Mohit Shiv" loading="lazy" />
+            <div class="slide-content">
+                <h1>Hello, I'm <span>Mohit Shiv</span></h1>
+                <p>Web Developer | Full Stack Learner</p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="images/christopher-gower-m_HRfLhgABo-unsplash.jpg" alt="Projects Showcase" loading="lazy" />
+            <div class="slide-content">
+                <h1>My Projects</h1>
+                <p>Explore my latest works and creative solutions.</p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="images/mariia-shalabaieva-HBkpnDVc_Ic-unsplash.jpg" alt="Contact Me" loading="lazy" />
+            <div class="slide-content">
+                <h1>Let's Connect</h1>
+                <p>Get in touch for collaborations and opportunities.</p>
+            </div>
+        </div>
+
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+    </section>
+
+    <hr />
+
+    <!-- ===== ABOUT ME ===== -->
+    <section id="about-me">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="images/about.jpg" alt="Mohit Shiv - About Me" loading="lazy" />
+            </div>
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>
+                    Web Developer with expertise in HTML, CSS, Tailwind, JavaScript, React.js, and Bootstrap.  
+                    I am passionate about learning new technologies, solving real-world problems,  
+                    and building scalable, modern web applications.
+                </p>
+                <p>
+                    I enjoy working on both frontend and backend projects, and I’m always  
+                    looking for opportunities to collaborate on exciting tech ideas.
+                </p>
+                <a href="https://drive.google.com/uc?export=download&id=1-6zzuonNCGTvc5lQWNMWs6NlApbhz3Pt" class="resume-btn" download>
+                    Download My Resume
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <hr />
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <img src="images/html.png" alt="HTML5 Logo" />
+                <p>HTML</p>
+            </div>
+            <div class="skill-card">
+                <img src="images/css.png" alt="CSS3 Logo" />
+                <p>CSS</p>
+            </div>
+            <div class="skill-card">
+                <img src="images/tailwind.png" alt="Tailwind CSS Logo" />
+                <p>Tailwind CSS</p>
+            </div>
+            <div class="skill-card">
+                <img src="images/react.png" alt="React.js Logo" />
+                <p>React</p>
+            </div>
+            <div class="skill-card">
+                <img src="images/javascript.webp" alt="JavaScript Logo" />
+                <p>JavaScript</p>
+            </div>
+            <div class="skill-card">
+                <img src="images/bootstrap.png" alt="Bootstrap Logo" />
+                <p>Bootstrap</p>
+            </div>
+        </div>
+    </section>
+
+    <hr />
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-wrapper">
+            <div class="project-card">
+                <img src="images/vackground-com-SfDofjXtxHE-unsplash.jpg" alt="Portfolio Website Design" loading="lazy" />
+                <h3>Portfolio Website</h3>
+                <p>A responsive personal portfolio built using HTML, CSS, and JS.</p>
+            </div>
+            <div class="project-card">
+                <img src="images/umbrella2.jpg" alt="Weather App with Rain Forecast" loading="lazy" />
+                <h3>Weather App</h3>
+                <p>Live weather updates using API integration.</p>
+            </div>
+        </div>
+    </section>
+
+    <hr />
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to drop me a message below:</p>
+
+        <form id="contactForm" action="https://formspree.io/f/xkgzkqgk" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="_replyto" placeholder="Your Email" required />
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- ===== SOCIAL LINKS ===== -->
+    <section id="contact-links">
+        <div class="social-buttons">
+            <a href="https://mail.google.com/mail/?view=cm&to=mohitshiv995@gmail.com" target="_blank" class="btn email" aria-label="Email Mohit Shiv">
+                <i class="fa-solid fa-envelope"></i> Email Me
+            </a>
+            <a href="https://www.linkedin.com/in/mohit-shiv-6012bb213" target="_blank" class="btn linkedin" aria-label="Visit Mohit Shiv on LinkedIn">
+                <i class="fa-brands fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://github.com/mohitshiv" target="_blank" class="btn github" aria-label="Visit Mohit Shiv on GitHub">
+                <i class="fa-brands fa-github"></i> GitHub
+            </a>
+            <a href="https://x.com/MohitShiv15" target="_blank" class="btn twitter" aria-label="Follow Mohit Shiv on Twitter">
+                <i class="fa-brands fa-x-twitter"></i> Twitter
+            </a>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p>&copy; 2025 Mohit Shiv. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
