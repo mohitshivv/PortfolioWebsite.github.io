@@ -15,7 +15,7 @@ body {
     font-family: 'Arial', sans-serif;
     color: #333;
     background: #f9f9f9;
-    line-height: 1.6;
+    line-height: 1.6;;
 }
 
 /* ===== HEADER / NAVBAR ===== */
@@ -107,13 +107,19 @@ header {
 .slide.active {
     opacity: 1;
 }
-
 .slide img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    filter: brightness(55%);
+    filter: brightness(70%);
+    transition: filter 0.3s ease;
 }
+/* .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(55%);
+} */
 
 .slide-content {
     position: absolute;
@@ -171,7 +177,7 @@ header {
 
 /* ===== SECTIONS ===== */
 section {
-    padding: 60px 20px;
+   
     text-align: center;
 }
 
@@ -259,19 +265,19 @@ section h2 {
 }
 
 .skill-card {
-    background: white;
+   
     border-radius: 12px;
     padding: 20px;
     min-width: 100px;
     flex: 1 1 110px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.18);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-align: center;
 }
 
 .skill-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 8px 16px rgba(151, 43, 43, 0.32);
 }
 
 .skill-card img {
@@ -284,7 +290,7 @@ section h2 {
     margin-top: 12px;
     font-size: 1.05rem;
     font-weight: 600;
-    color: #444;
+    color: #c0d1ea;
 }
 
 /* ===== PROJECTS ===== */
@@ -611,4 +617,8 @@ img {
     hr {
         margin: 40px 0;
     }
+}
+
+.pb50 {
+    padding-bottom: 50px;
 }
