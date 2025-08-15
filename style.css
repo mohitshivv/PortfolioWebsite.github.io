@@ -21,7 +21,7 @@ body {
 /* ===== HEADER / NAVBAR ===== */
 header {
     width: 100%;
-    background: #0d0d0d;
+    background: #1c1c1c;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -52,7 +52,7 @@ header {
 .brand {
     font-size: 1.3rem;
     font-weight: bold;
-    color: #ff4d5a;
+    color: #8e1820;
 }
 
 .brand small {
@@ -121,8 +121,7 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: white;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+    text-shadow: 1px 1px 4px rgba(44, 53, 97, 0.6);
     width: 90%;
     max-width: 800px;
 }
@@ -131,14 +130,16 @@ header {
     font-size: 2.8rem;
     margin-bottom: 12px;
     font-weight: bold;
+    color: #c1b8b9;
 }
 
 .slide-content h1 span {
-    color: #ff4d5a;
+    color: #b43e48;
 }
 
 .slide-content p {
     font-size: 1.2rem;
+    color: #ae691a;
 }
 
 .prev, .next {
@@ -162,7 +163,7 @@ header {
 }
 
 .prev:hover, .next:hover {
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(249, 247, 247, 0.8);
 }
 
 .prev { left: 20px; }
